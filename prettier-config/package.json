@@ -1,0 +1,20 @@
+{
+  "name": "@dadi/prettier-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dadi/code-standards.git"
+  },
+  "keywords": [
+    "prettier",
+    "prettierconfig"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dadi/code-standards/issues"
+  },
+  "homepage": "https://github.com/dadi/code-standards#readme"
+}

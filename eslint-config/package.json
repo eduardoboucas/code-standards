@@ -1,0 +1,26 @@
+{
+  "name": "@dadi/eslint-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dadi/code-standards.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dadi/code-standards/issues"
+  },
+  "homepage": "https://github.com/dadi/code-standards#readme",
+  "peerDependencies": {
+    "eslint": ">= 5"
+  },
+  "dependencies": {
+    "eslint-config-prettier": ">= 5"
+  }
+}
