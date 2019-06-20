@@ -31,11 +31,11 @@ Configs for linters and formatters used in DADI projects.
 1. Add the following to your `test` npm script:
 
    ```
-   eslint . && prettier --check **/*.js
+   eslint . && prettier --check **/*.{js,jsx,md,html}
    ```
 
 1. If you want to reformat an existing repository, run:
 
    ```
-   ./node_modules/.bin/eslint --fix . && ./node_modules/.bin/prettier --write **/*.js
+   ./node_modules/.bin/eslint --fix . && ./node_modules/.bin/prettier --write **/*.{js,jsx,md,html}
    ```
