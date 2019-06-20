@@ -2,30 +2,40 @@
 
 Configs for linters and formatters used in DADI projects.
 
-## Usage
+## Setting up
 
-### Prettier
+1. Copy `.editorconfig`, `.eslintrc` and `.prettierrc` to the root of the repository
 
-Install:
+1. Install the required dependencies
 
-`npm i -D prettier @dadi/prettier-config`
+   ```
+   npm i @dadi/eslint-config @dadi/prettier-config eslint husky lint-staged prettier --save-dev
+   ```
 
-In `.prettierrc`:
+1. Add the following blocks to `package.json`:
 
-```javascript
-'@dadi/prettier-config'
-```
+   ```
+   "husky": {
+     "hooks": {
+       "pre-commit": "lint-staged"
+     }
+   },
+   "lint-staged": {
+     "*.{js,jsx,md,html}": [
+       "prettier --write",
+       "git add"
+     ]
+   }
+   ```
 
-### Eslint
+1. Add the following to your `test` npm script:
 
-Install:
+   ```
+   eslint . && prettier --check **/*.js
+   ```
 
-`npm i -D eslint @dadi/eslint-config`
+1. If you want to reformat an existing repository, run:
 
-In `.eslintrc`:
-
-```javascript
-{
-  "extends": "@dadi"
-}
-```
+   ```
+   ./node_modules/.bin/eslint --fix . && ./node_modules/.bin/prettier --write **/*.js
+   ```
