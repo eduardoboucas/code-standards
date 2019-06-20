@@ -1,6 +1,6 @@
 module.exports = {
   parserOptions: {
-    ecmaVersion: 2017
+    ecmaVersion: 2019
   },
   env: {
     node: true,
@@ -10,7 +10,6 @@ module.exports = {
   extends: ['eslint:recommended', 'prettier'],
   rules: {
     'no-console': 'off',
-    'no-shadow': 'warn',
     'no-unused-vars': 'warn',
     'array-callback-return': 'error',
     eqeqeq: 'error',
@@ -20,7 +19,6 @@ module.exports = {
     'no-return-assign': 'error',
     'no-return-await': 'error',
     'no-sequences': 'error',
-    'no-unused-expressions': 'error',
     'no-var': 'error',
     'object-shorthand': 'error',
     'padding-line-between-statements': [
