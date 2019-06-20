@@ -33,3 +33,9 @@ Configs for linters and formatters used in DADI projects.
    ```
    eslint . && prettier --check **/*.js
    ```
+
+1. If you want to reformat an existing repository, run:
+
+   ```
+   ./node_modules/.bin/eslint --fix . && ./node_modules/.bin/prettier --write **/*.js
+   ```
