@@ -21,7 +21,7 @@ Configs for linters and formatters used in DADI projects.
      }
    },
    "lint-staged": {
-     "*.{js,jsx,md,html}": [
+     "*.{js,jsx,md,html,css}": [
        "prettier --write",
        "git add"
      ]
@@ -31,11 +31,11 @@ Configs for linters and formatters used in DADI projects.
 1. Add the following to your `test` npm script:
 
    ```
-   eslint . && prettier --check **/*.{js,jsx,md,html}
+   eslint --ext js,jsx . && prettier --check '**/*.{js,jsx,md,html,css}'
    ```
 
 1. If you want to reformat an existing repository, run:
 
    ```
-   ./node_modules/.bin/eslint --fix . && ./node_modules/.bin/prettier --write **/*.{js,jsx,md,html}
+   ./node_modules/.bin/eslint --fix --ext js,jsx . && ./node_modules/.bin/prettier --write '**/*.{js,jsx,md,html,css}'
    ```
