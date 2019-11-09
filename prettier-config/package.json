@@ -1,20 +1,17 @@
 {
-  "name": "@dadi/prettier-config",
+  "name": "@eduardoboucas/prettier-config",
   "version": "1.1.0",
   "description": "",
   "main": "index.json",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dadi/code-standards.git"
-  },
+  "repository": "git://github.com/eduardoboucas/code-standards.git",
   "keywords": [
     "prettier",
     "prettierconfig"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "Eduardo Bouças <mail@eduardoboucas.com>",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dadi/code-standards/issues"
+    "url": "https://github.com/eduardoboucas/code-standards/issues"
   },
-  "homepage": "https://github.com/dadi/code-standards#readme"
+  "homepage": "https://github.com/eduardoboucas/code-standards#readme"
 }

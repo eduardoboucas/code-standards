@@ -1,22 +1,19 @@
 {
-  "name": "@dadi/eslint-config",
+  "name": "@eduardoboucas/eslint-config",
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dadi/code-standards.git"
-  },
+  "repository": "git://github.com/eduardoboucas/code-standards.git",
   "keywords": [
     "eslint",
     "eslintconfig"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "Eduardo Bouças <mail@eduardoboucas.com>",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dadi/code-standards/issues"
+    "url": "https://github.com/eduardoboucas/code-standards/issues"
   },
-  "homepage": "https://github.com/dadi/code-standards#readme",
+  "homepage": "https://github.com/eduardoboucas/code-standards#readme",
   "peerDependencies": {
     "eslint": ">= 5"
   },
