@@ -1,6 +1,6 @@
-# DADI code standards
+# Code standards
 
-Configs for linters and formatters used in DADI projects.
+Configs for linters and formatters.
 
 ## Setting up
 
@@ -9,7 +9,7 @@ Configs for linters and formatters used in DADI projects.
 1. Install the required dependencies
 
    ```
-   npm i @dadi/eslint-config @dadi/prettier-config eslint husky lint-staged prettier --save-dev
+   npm i @eduardoboucas/eslint-config @eduardoboucas/prettier-config eslint husky lint-staged prettier --save-dev
    ```
 
 1. Add the following blocks to `package.json`:
